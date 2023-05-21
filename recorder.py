@@ -9,7 +9,7 @@ print('Recording')
 
 while True:
     ts = datetime.datetime.now()
-    filename = ts.strftime("%Y-%m-%d %H:%M:%S")
+    filename = ts.strftime("%Y-%m-%d_%H-%M-%S")
 
     # Start recorder with the given values of duration and sample frequency
     # PTL Note: I had to change the channels value in the original code to fix a bug
