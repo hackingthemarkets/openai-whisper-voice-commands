@@ -5,4 +5,7 @@ ib_insync
 nest_asyncio
 pandas
 scipy
+python-dotenv
 openai
+keyboard
+threading
